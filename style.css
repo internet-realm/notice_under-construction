@@ -1,0 +1,83 @@
+body{
+	background-color: pink;
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.text{
+	text-align: center;
+}
+
+.man-idk, .do-you-mind{
+	height: auto;
+	border-radius: 10px;
+	margin-bottom: 40px;
+}
+
+.man-idk{
+	max-width: 200px;
+}
+
+.do-you-mind{
+	max-width: 350px;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	margin: 10px;
+}
+
+button{
+	margin: 0;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+	margin: auto;
+	width: 90%;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.message {
+	padding: 10px;
+	margin: 0;
+}
+
+#success {
+	display: none;
+	margin: 0;
+	background-color: aquamarine;
+	transition: 0.2s;
+}
+
+#fail {
+	display: none;
+	margin: 0;
+	background-color: rgb(255, 255, 104);
+	transition: 0.2s;
+}
+
+#email-validate {
+	display: none;
+	color: red;
+}
