@@ -9,8 +9,8 @@ function getInputValue() {
 // Email Validation
 var errorMsg = document.getElementById('email-validate');
 function validateEmail(mail) {
-  var mailFormat = "/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/";
-  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail)){
+  var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  if (mailFormat.test(mail)){
     return true;
   } else {
     return false;
