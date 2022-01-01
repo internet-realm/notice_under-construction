@@ -1,8 +1,9 @@
 body{
-	background-color: pink;
-	font-family: 'Roboto', sans-serif;
+	background-color: #061224;
+	font-family: 'Roboto Mono', monospace;
 	padding: 0;
 	margin: 0;
+	color: rgb(231, 231, 231);
 }
 
 .text{
@@ -11,12 +12,12 @@ body{
 
 .man-idk, .do-you-mind{
 	height: auto;
-	border-radius: 10px;
 	margin-bottom: 40px;
 }
 
 .man-idk{
 	max-width: 200px;
+	border-radius: 10px;
 }
 
 .do-you-mind{
@@ -25,8 +26,17 @@ body{
 	padding: 0;
 }
 
-p{
+h1 {
+	color: #63FFDA;
+}
+
+p {
 	margin: 10px;
+	font-size: 15px;
+}
+
+span {
+	color: yellow;
 }
 
 button{
@@ -61,6 +71,8 @@ button{
 .message {
 	padding: 10px;
 	margin: 0;
+	color: #061224;
+	font-size: 15px;
 }
 
 #success {
@@ -80,4 +92,41 @@ button{
 #email-validate {
 	display: none;
 	color: red;
+}
+
+input {
+	background-color: transparent;
+	color: white;
+	outline: none;
+	border: 1px solid #63FFDA;
+	min-height: 30px;
+	font-family: 'Roboto Mono', monospace;
+	padding: 0px 10px;
+	margin-top: 20px;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+button {
+	background-color: #061224;
+	color: #63FFDA;
+	border: 1px solid #63FFDA;
+	padding: 0px 10px;
+	min-height: 33px;
+	margin-left: 0;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+button:hover {
+	background-color: #63FFDA;
+	color: #061224;
+	transform: scale(1.1);
+}
+
+.banner {
+	padding: 10px;
+	border: 1px solid yellow;
+	max-width: 900px;
+	margin: auto;
 }
