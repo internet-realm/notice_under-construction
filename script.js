@@ -68,7 +68,7 @@ yes.onclick = function() {
 
 // Send Email to Database
 function sendData(){
-  fetch('http://api.mufasa.cc/subscribe', {
+  fetch('https://api.mufasa.cc/subscribe', {
     method: 'POST',
     body: JSON.stringify({
       email: emailVal,
