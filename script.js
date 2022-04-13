@@ -1,6 +1,13 @@
 var subscribed;
 var emailVal;
 
+fetch('https://mufasa-cc.herokuapp.com/cat-image')
+.then(function (response) {
+  console.log(response.status)
+}).catch(function (error) {
+  console.log('Something went wrong.', error);
+});
+
 // Get Form Values
 function getInputValue() {
   emailVal = document.getElementById('email').value;
